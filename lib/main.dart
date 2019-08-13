@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Calculator',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.white,
+        primarySwatch: Colors.purple,
       ),
       home: Calculator(),
     );
