@@ -60,7 +60,31 @@ class _CalculatorState extends State<Calculator> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      backgroundColor: Colors.white,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: <Widget>[
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 10),
+            child: Text(values, textAlign: TextAlign.right, style: TextStyle(fontSize: 30)),
+          ),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 10),
+            child: Text(result, textAlign: TextAlign.right, style: TextStyle(fontSize: 32,fontWeight: FontWeight.bold)),
+          ),
+          SizedBox( height: 20.0),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              Default(text: 'AC',background: background, onPress: (){}),
+              Default(icon: Icon(Icons.backspace), background: background, onPress: (){}),
+              Default(text: '%', background: background, onPress: (){}),
+              Default(text: '/', background: background, onPress: (){}),
+            ]
+          ),
+        ],
+      )
     );
   }
 }
