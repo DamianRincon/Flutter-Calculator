@@ -15,6 +15,10 @@ class _CalculatorState extends State<Calculator> {
 
   @override
   void initState() {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+      statusBarIconBrightness: Brightness.dark
+    ));
     values = "0";
     result = "";
     super.initState();
