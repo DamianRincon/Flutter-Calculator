@@ -26,6 +26,10 @@ flutter run
 | :---: |:---:| :---:|
 | [![ScreenShot](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-22-092_com.example.flutter_calculator.png)](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-22-092_com.example.flutter_calculator.png)    | [![ScreenShot](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-28-224_com.example.flutter_calculator.png)](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-28-224_com.example.flutter_calculator.png) | [![ScreenShot](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-40-504_com.example.flutter_calculator.png)](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-40-504_com.example.flutter_calculator.png)  |
 
+## Sigueme
+- [![ScreenShot](https://img.icons8.com/color/48/000000/instagram-new.png)](https://www.instagram.com/demianrc/) [Instagram](https://www.instagram.com/demianrc/).
+- [![GitHub Logo](https://img.icons8.com/color/48/000000/facebook-new.png)](https://www.facebook.com/rc.demian) [Facebook](https://www.facebook.com/rc.demian).
+- [![GitHub Logo](https://img.icons8.com/color/48/000000/twitter.png)](https://twitter.com/demianrincon) [Twitter](https://twitter.com/demianrincon).
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
