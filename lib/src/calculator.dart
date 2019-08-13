@@ -83,6 +83,41 @@ class _CalculatorState extends State<Calculator> {
               Default(text: '/', background: background, onPress: (){}),
             ]
           ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              Default(text: '7',onPress: (){}),
+              Default(text: '8',onPress: (){}),
+              Default(text: '9',onPress: (){}),
+              Default(text: '*',background: background,onPress: (){}),
+            ]
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              Default(text: '4',onPress: () {}),
+              Default(text: '5',onPress: () {}),
+              Default(text: '6',onPress: () {}),
+              Default(text: '-',background: background,onPress: (){}),
+            ]
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              Default(text: '1',onPress: (){}),
+              Default(text: '2',onPress: (){}),
+              Default(text: '3',onPress: (){}),
+              Default(text: '+',background: background,onPress: (){}),
+            ]
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              Default(text: '0',onPress: (){}),
+              Default(text: '.',onPress: (){}),
+              Equals(onPress: calculate)
+            ]
+          )
         ],
       )
     );
