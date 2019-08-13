@@ -1,16 +1,31 @@
-# flutter_calculator
+# Flutter Calculator
 
-A new Flutter project.
+Una sencilla aplicación creada con Flutter usando Material Design para crear una aplicación con un diseño muy estetico y funcional.
 
-## Getting Started
+## Instalación
 
-This project is a starting point for a Flutter application.
+Puede clonar directamente el repositorio o bajarlo en formato zip.
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+https://github.com/DamianRincon/Flutter-Calculator.git
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Uso
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Vaya a la carpeta de descarga, abra la carpeta del proyecto y solo ejecute.
+
+```bash
+cd flutter-calculator
+
+flutter run
+```
+
+## ScreenShots
+
+| Vista inicial | Vista de operaciones | Vista de error |
+| :---: |:---:| :---:|
+| [![ScreenShot](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-22-092_com.example.flutter_calculator.png)](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-22-092_com.example.flutter_calculator.png)    | [![ScreenShot](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-28-224_com.example.flutter_calculator.png)](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-28-224_com.example.flutter_calculator.png) | [![ScreenShot](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-40-504_com.example.flutter_calculator.png)](https://github.com/DamianRincon/Flutter-Calculator/blob/master/screenshots/Screenshot_2019-08-13-04-03-40-504_com.example.flutter_calculator.png)  |
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
