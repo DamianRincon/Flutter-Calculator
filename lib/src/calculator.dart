@@ -77,44 +77,44 @@ class _CalculatorState extends State<Calculator> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              Default(text: 'AC',background: background, onPress: (){}),
-              Default(icon: Icon(Icons.backspace), background: background, onPress: (){}),
-              Default(text: '%', background: background, onPress: (){}),
-              Default(text: '/', background: background, onPress: (){}),
+              Default(text: 'AC',background: background, onPress: clear),
+              Default(icon: Icon(Icons.backspace), background: background, onPress: delete),
+              Default(text: '%', background: background, onPress: () => setVal("%")),
+              Default(text: '/', background: background, onPress: () => setVal("/")),
             ]
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              Default(text: '7',onPress: (){}),
-              Default(text: '8',onPress: (){}),
-              Default(text: '9',onPress: (){}),
-              Default(text: '*',background: background,onPress: (){}),
+              Default(text: '7',onPress: () => setVal("7")),
+              Default(text: '8',onPress: () => setVal("8")),
+              Default(text: '9',onPress: () => setVal("9")),
+              Default(text: '*',background: background,onPress: () => setVal("*")),
             ]
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              Default(text: '4',onPress: () {}),
-              Default(text: '5',onPress: () {}),
-              Default(text: '6',onPress: () {}),
-              Default(text: '-',background: background,onPress: (){}),
+              Default(text: '4',onPress: () => setVal("4")),
+              Default(text: '5',onPress: () => setVal("5")),
+              Default(text: '6',onPress: () => setVal("6")),
+              Default(text: '-',background: background,onPress: () => setVal("-")),
             ]
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              Default(text: '1',onPress: (){}),
-              Default(text: '2',onPress: (){}),
-              Default(text: '3',onPress: (){}),
-              Default(text: '+',background: background,onPress: (){}),
+              Default(text: '1',onPress: () => setVal("1")),
+              Default(text: '2',onPress: () => setVal("2")),
+              Default(text: '3',onPress: () => setVal("3")),
+              Default(text: '+',background: background,onPress: () => setVal("+")),
             ]
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              Default(text: '0',onPress: (){}),
-              Default(text: '.',onPress: (){}),
+              Default(text: '0',onPress: () => setVal("0")),
+              Default(text: '.',onPress: () => setVal(".")),
               Equals(onPress: calculate)
             ]
           )
